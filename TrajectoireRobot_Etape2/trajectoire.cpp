@@ -38,6 +38,8 @@ void Trajectoire::Afficher()
     double dureeTotale = 0.0;
 
     cout << "trajectoire : " << endl << endl;
+    
+    vecteurTotal = depart;
 
     for (int indice = 0 ; indice < nbEtapesMax; ++indice)
     {
