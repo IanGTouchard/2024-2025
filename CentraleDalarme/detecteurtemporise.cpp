@@ -7,7 +7,7 @@ DetecteurTemporise::DetecteurTemporise() {
 }
 
 DetecteurTemporise::~DetecteurTemporise(){
-
+    timerIntru.stop();
 }
 
 void DetecteurTemporise::on_pushButtonIntrus_clicked()
